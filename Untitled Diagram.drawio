@@ -1,9 +1,113 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="S_kg-T9ncAN40PJiwzhJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1661" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="H41PmqZT4DL9LimgJV8f-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="369" width="275" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="369" width="407" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-1" value="地图信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-136" y="454" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="H41PmqZT4DL9LimgJV8f-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-76" y="467" as="sourcePoint" />
+            <mxPoint x="62" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-3" value="道路id 及拓扑关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="22" y="409" width="115" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-1" target="H41PmqZT4DL9LimgJV8f-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-37" y="474" as="sourcePoint" />
+            <mxPoint x="-31" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-5" value="seg id 及拓扑关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="26" y="454" width="113" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-1" target="H41PmqZT4DL9LimgJV8f-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-59" y="486" as="sourcePoint" />
+            <mxPoint x="-37" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-7" value="车道 id 及拓扑关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="505" width="118" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-8" value="getRoadId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="415" width="73" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-9" value="get seg id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="448" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-10" value="getLaneId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-65" y="495" width="71" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="263" y="573" as="sourcePoint" />
+            <mxPoint x="26" y="547" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-12" value="道路boundary以及geometry矢量信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="546" width="214" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-14" target="H41PmqZT4DL9LimgJV8f-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1.229923642914855" y="649.4023637442754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-14" target="H41PmqZT4DL9LimgJV8f-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-14" value="算法车信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="664" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-15" value="历史状态信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6" y="634" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-17" value="车辆与道路之间的所属关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6" y="674" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="539" as="sourcePoint" />
+            <mxPoint x="298" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-22" target="H41PmqZT4DL9LimgJV8f-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-22" value="确定生成区域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403" y="415" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-23" target="H41PmqZT4DL9LimgJV8f-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-23" value="参考轨迹生成（动态求解）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="367" y="474" width="162" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-25" target="H41PmqZT4DL9LimgJV8f-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-25" value="碰撞检测 filter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="402" y="521" width="92" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H41PmqZT4DL9LimgJV8f-27" target="H41PmqZT4DL9LimgJV8f-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-27" value="smart agent 生命周期管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="572" width="157" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H41PmqZT4DL9LimgJV8f-29" value="smart agent 动态生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="381.5" y="628" width="133" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
